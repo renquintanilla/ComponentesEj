@@ -1,0 +1,15 @@
+.vista {
+  display: flex;
+  flex-flow:column;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.cronometro{
+  border: 1px solid black;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+}
+
+
