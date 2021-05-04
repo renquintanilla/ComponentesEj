@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  numeros: number[];
+
+  constructor(){
+    this.numeros = [20, 15, 10, 5];
+  }
+
+  onTerminaCronometro($event) {
+    console.log($event);
+  }
 }
