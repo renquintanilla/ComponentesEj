@@ -37,7 +37,15 @@ export class CalculadoraComponent implements OnInit {
   }
 
   onResultado() {
+    
+     if (this.resultado.substring(0,1)=='*' || this.resultado.substring(0,1)=='/'){
+      console.log('Debe comenzar con un número, no con ', this.resultado.substring(0,1));
+      this.resultado = '';
+      this.calculoFinalizado = false;
+     }
+     else {
     this.resultado = eval(this.resultado);
     this.calculoFinalizado = true;
   }
+}
 }
