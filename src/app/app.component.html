@@ -1,5 +1,9 @@
-<calculadora></calculadora>
+<!-- <calculadora></calculadora> -->
 <!-- <cronometro [inicio]="numeros[0]" (terminaCronometro)="onTerminaCronometro($event)"></cronometro>
 <cronometro [inicio]="numeros[1]" (terminaCronometro)="onTerminaCronometro($event)"></cronometro>
 <cronometro [inicio]="numeros[2]" (terminaCronometro)="onTerminaCronometro($event)"></cronometro>
 <cronometro [inicio]="numeros[3]" (terminaCronometro)="onTerminaCronometro($event)"></cronometro> -->
+
+<app-alerta [texto] = "titulos[0]" subTitulo="Este el el primero" (alertaPulsada)="onAlertaPulsada($event)"></app-alerta>
+<app-alerta [texto] = "titulos[1]" subTitulo="Este el el segundo"></app-alerta>
+<app-alerta [texto] = "titulos[2]" subTitulo="Este el el tercero"></app-alerta>

@@ -6,6 +6,7 @@ import { SumarComponent } from './components/sumar/sumar.component';
 import { CronometroComponent } from './components/cronometro/cronometro.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { CalculadoraComponent } from './components/calculadora/calculadora.component';
+import { AlertaComponent } from './components/alerta/alerta.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CalculadoraComponent } from './components/calculadora/calculadora.compo
     SumarComponent,
     CronometroComponent,
     EventosComponent,
-    CalculadoraComponent
+    CalculadoraComponent,
+    AlertaComponent
   ],
   imports: [
     BrowserModule

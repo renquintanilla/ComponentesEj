@@ -8,12 +8,19 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   numeros: number[];
+  titulos: string[];
 
   constructor(){
     this.numeros = [20, 15, 10, 5];
+    this.titulos = ['Jurassic Park', 'King Kong', 'Jonh Wick'];
   }
 
   onTerminaCronometro($event) {
     console.log($event);
   }
+
+  onAlertaPulsada($event) {
+    console.log($event);
+  }
+
 }
