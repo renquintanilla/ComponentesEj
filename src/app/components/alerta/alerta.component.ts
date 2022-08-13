@@ -26,7 +26,7 @@ export class AlertaComponent implements OnInit {
   }
 
   onClick() {
-    this.alertaPulsada.emit('La alerta ha sido pulsada');
+    this.alertaPulsada.emit('Del hijo al padre');
   }
 
  

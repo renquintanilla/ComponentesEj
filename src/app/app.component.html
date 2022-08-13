@@ -1,9 +1,26 @@
+<input type="text" [(ngModel)]="campoTexto">
+
+<p> {{ campoTexto}}</p>
+<p>
+    <button (click)="onClick()">Cambia Valor variable</button>
+</p>
+
+<div>
+    <input type="text" [(ngModel)]="persona.nombre">
+    <input type="text" [(ngModel)]="persona.apellido">
+    <input type="text" [(ngModel)]="persona.edad">
+</div>
+
+<p>Me llamo {{persona.nombre}} {{persona.apellido}} y tengo {{persona.edad}} años</p>
+
 <!-- <calculadora></calculadora> -->
 <!-- <cronometro [inicio]="numeros[0]" (terminaCronometro)="onTerminaCronometro($event)"></cronometro>
 <cronometro [inicio]="numeros[1]" (terminaCronometro)="onTerminaCronometro($event)"></cronometro>
 <cronometro [inicio]="numeros[2]" (terminaCronometro)="onTerminaCronometro($event)"></cronometro>
-<cronometro [inicio]="numeros[3]" (terminaCronometro)="onTerminaCronometro($event)"></cronometro> -->
+<cronometro [inicio]="numeros[3]" (terminaCronometro)="onTerminaCronometro($event)"></cronometro>  -->
 
 <app-alerta [texto] = "titulos[0]" subTitulo="Este el el primero" (alertaPulsada)="onAlertaPulsada($event)"></app-alerta>
 <app-alerta [texto] = "titulos[1]" subTitulo="Este el el segundo"></app-alerta>
-<app-alerta [texto] = "titulos[2]" subTitulo="Este el el tercero"></app-alerta>
+<app-alerta [texto] = "titulos[2]" subTitulo="Del Padre al hijo"></app-alerta>
+
+

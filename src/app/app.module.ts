@@ -7,6 +7,7 @@ import { CronometroComponent } from './components/cronometro/cronometro.componen
 import { EventosComponent } from './components/eventos/eventos.component';
 import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 import { AlertaComponent } from './components/alerta/alerta.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AlertaComponent } from './components/alerta/alerta.component';
     AlertaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
